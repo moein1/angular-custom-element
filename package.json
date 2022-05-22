@@ -1,6 +1,6 @@
 {
   "name": "angular-custom1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,6 @@
     "test": "ng test",
     "package": "cat ./dist/angular-custom1/runtime.js ./dist/angular-custom1/polyfills.js ./dist/angular-custom1/scripts.js ./dist/angular-custom1/main.js > custom-button-element.js"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~13.1.0",
     "@angular/common": "~13.1.0",
